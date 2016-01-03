@@ -1,5 +1,6 @@
-def hello
-  puts "Hello World!"
+def hello(anything)
+  puts anything
 end
 
-hello
+hello "Hello World!"
+hello("Hello, how are you doin'?")
